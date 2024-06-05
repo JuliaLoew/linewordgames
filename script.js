@@ -20,22 +20,22 @@ console.log(randomElement);
         console.log('Unentschieden');} 
         
     else if (args == "Schere", randomElement == "Papier") {
-        console.log('gewonnen');} 
+        console.log('Du hast Schere gewählt, der Computer Papier. Du hast gewonnen');} 
 
     else if (args == "Schere", randomElement == "Stein") {
-        console.log('verloren');} 
+        console.log('Du hast Schere gewählt, der Computer Stein. Du hast verloren');} 
 
     else if (args == "Papier", randomElement == "Stein") {
-        console.log('gewonnen');} 
+        console.log('Du hast Papier gewählt, der Computer Stein. Du hast gewonnen');} 
 
     else if (args == "Papier", randomElement == "Schere") {
-        console.log('verloren');} 
+        console.log('Du hast Papier gewählt, der Computer Schere. Du hast verloren');} 
 
     else if (args == "Stein", randomElement == "Schere") {
-        console.log('gewonnen');}     
+        console.log('Du hast Stein gewählt, der Computer Schere. Du hast gewonnen');}     
 
     else if (args == "Stein", randomElement == "Papier") {
-            console.log('verloren');}    
+            console.log('Du hast Stein gewählt, der Computer Papier. Du hast verloren');}    
 
      else {
     console.log ("no Match")
